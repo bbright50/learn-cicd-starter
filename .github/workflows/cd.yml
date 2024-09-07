@@ -20,6 +20,3 @@ jobs:
 
       - name: Build app
         run: ./scripts/buildprod.sh
-
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v1
